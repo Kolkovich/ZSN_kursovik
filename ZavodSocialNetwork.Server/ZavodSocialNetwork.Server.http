@@ -1,0 +1,6 @@
+@ZavodSocialNetwork.Server_HostAddress = http://localhost:5137
+
+GET {{ZavodSocialNetwork.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

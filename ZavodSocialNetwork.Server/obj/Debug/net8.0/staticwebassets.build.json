@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "AsxAdU9ittEC+bAcwAna2C3uD/YqpWVWPT1+3VjTsYE=",
+  "Source": "ZavodSocialNetwork.Server",
+  "BasePath": "_content/ZavodSocialNetwork.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Dima\\source\\repos\\ZavodSocialNetwork\\zavodsocialnetwork.client\\zavodsocialnetwork.client.esproj",
+      "Version": 2,
+      "Source": "zavodsocialnetwork.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
