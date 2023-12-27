@@ -1,0 +1,10 @@
+﻿@mixin flex_center{
+  display: flex;
+  /*justify-content: center;*/
+}
+
+.mainPage{
+  @include flex_center;
+  text-align: left;
+  padding: 0 100px;
+}

@@ -14,12 +14,14 @@ export default function Header(): JSX.Element {
     
     return <header>
             <h1>Zavodchanins social network kinda</h1>
+        <div className={"big_container"}>
         <div className={"button_container"}>
             <a className={"header_button"}>Your profile</a>
             <a className={"header_button"}>Messages</a>
             <a className={"header_button"}>Search engine</a>
         </div>
             <RegLoginButton></RegLoginButton>
+        </div>
         
         </header>
 }
