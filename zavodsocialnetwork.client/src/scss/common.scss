@@ -3,3 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+div.std{
+  background: rgb(221,221,221);
+  
+  div{
+    background: rgb(238,238,238);
+  }
+}
+
+body {
+  background: linear-gradient(270deg,  #673737, #412828);
+  background-size: 400% 400%;
+  -webkit-animation: Animation 6s ease infinite;
+  -moz-animation: Animation 6s ease infinite;
+  animation: Animation 6s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes Animation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
+}
+@keyframes Animation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
+}
