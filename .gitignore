@@ -1,21 +1,21 @@
-.v2
+*.v2
 
-.suo
+*.suo
 
-.exe
+*.exe
 
-.cache
+*.cache
 
-.info
+*.info
 
-.bin
+*.bin
 
-.txt
+*.txt
 
-.props
+*.props
 
-.targets
+*.targets
 
-.dll
+*.dll
 
-.pdb
+*.pdb
