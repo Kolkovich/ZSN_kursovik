@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 namespace ZavodSocialNetwork.Server.Models;
 
-public class Conditions
+public class Product_package
 {
     [Required]
     public int Id { get; set; }
     
-    public int regularity { get; set; }
-    public string shipping{ get; set; }
+    public int executorid { get; set; }
+    public int product_position { get; set; }
 }

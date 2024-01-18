@@ -8,8 +8,9 @@ public class Contract
     
     public int executorId { get; set; }
     public int receiverId { get; set; }
-    public int good_package { get; set; }
+    public int product_packageif { get; set; }
     public string status { get; set; }
-    public int executionconditions { get; set; }
-    public int Check { get; set; }
+    public int exconditions { get; set; }
+    public int receiptid { get; set; }
+    public string regularity { get; set; }
 }
