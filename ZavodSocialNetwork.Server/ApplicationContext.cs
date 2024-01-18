@@ -5,12 +5,12 @@ namespace ZavodSocialNetwork.Server;
 
 public class ApplicationContext : DbContext
 {
-    public DbSet<Check> Checks { get; set; } = null!;
-    public DbSet<Conditions> Conditions { get; set; } = null!;
+    public DbSet<Receipt> Receipts { get; set; } = null!;
     public DbSet<Contract> Contracts { get; set; } = null!;
-    public DbSet<Goods_package> GoodsPackages { get; set; } = null!;
-    public DbSet<Goods_position> GoodsPositions { get; set; } = null!;
+    public DbSet<Product_package> ProductPackages { get; set; } = null!;
+    public DbSet<Product_position> ProductPositions { get; set; } = null!;
     public DbSet<User> Users { get; set; } = null!;
+    public DbSet<Product> Product { get; set; } = null!;
 
     public ApplicationContext(DbContextOptions<ApplicationContext> options)
         : base(options)
