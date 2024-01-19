@@ -11,16 +11,7 @@ export default function App() {
                 <Route path="/" element={<MainPage />} />
                 <Route path={"/login"} element={<LoginPage />}></Route>
                 <Route path={"/register"} element={<RegisterPage />}></Route>
-
-
             </Routes>
         </>
     )
 }
-
-    //Example fetching from controller
-    /*async function populateWeatherData() {
-        const response = await fetch('weatherforecast');
-        const data = await response.json();
-        setForecasts(data);
-    }*/

@@ -1,19 +1,30 @@
-﻿$main_font: Helvetica, sans-serif;
-$header_color: #870e48;
+﻿$header_color: #870e48;
 $button_color: #c23131;
 
 header{
   //background-image: url("https://w7.pngwing.com/pngs/128/974/png-transparent-chesapeake-blue-crab-free-content-dead-crab-s-crustacean-smiley-cartoon.png");
   margin: 0;
-  font-family: $main_font;
   color: white;
   padding: 0;
   position: sticky;
   top: 0;
   z-index: 9999;
-  background: rgb(4, 10, 21);
+  background: rgb(38,47,54);
   min-height: 10.5vh;
-  border-bottom: 2px solid black;
+  div.sub_div{
+    padding: 1.4vh 1.4vw 0.5vh;
+  }
+  h1 {
+    border: 1.5px solid #2F3036;
+  }
+  div.button_container{
+    padding-top: 0.6vh;
+    padding-left: 0.7vw;
+    padding-bottom: 1vh;
+  }
+  div.logo{
+    width: 34em;
+  }
 }
 
 a {
@@ -34,10 +45,16 @@ a {
 .header_button:hover{
   background: #283973;
 }
-.button_container{
+.button_container#common_buttons{
   display: flex;
   justify-content: space-between;
   width: 32vw;
+}
+.button_container#reg_log{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 21.4vw;
 }
 .big_container{
   display: flex;

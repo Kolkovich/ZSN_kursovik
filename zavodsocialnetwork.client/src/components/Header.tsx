@@ -1,7 +1,5 @@
 ﻿//import { useEffect, useState } from 'react';
 import '../scss/Header.scss';
-import './RegLoginButton.tsx'
-import RegLoginButton from "./RegLoginButton.tsx";
 import {Link} from "react-router-dom";
 
 export default function Header(): JSX.Element {
@@ -14,16 +12,20 @@ export default function Header(): JSX.Element {
      */
     
     return <header>
-            <h1>Zavodchanins social network kinda</h1>
+        <div className={"sub_div"}>
+            <div className={"logo"}><h1>Zavodchanins social network kinda</h1></div>
         <div className={"big_container"}>
-        <div className={"button_container"}>
+        <div className={"button_container"} id={"common_buttons"}>
             <Link  to={"/"} className={"header_button"}>Main page</Link>
             <Link to={"/messages"} className={"header_button"}>Messages</Link>
             <Link to={"/search"} className={"header_button"}>Search engine</Link>
         </div>
-            <RegLoginButton></RegLoginButton>
+            <div className={"button_container"} id={"reg_log"}>
+                <Link to={"/register"} className={"header_button"}>Register</Link>
+                <Link to={"/login"} className={"header_button"}>Login</Link>
+            </div>
         </div>
-        
+        </div>
         </header>
 }
 

@@ -1,12 +1,29 @@
-﻿class user_model{
+﻿import React from "react";
+import axios from "axios";
+export class user_model{
     
-    public constructor(public phone_number : string,
-                       public password: string) {}
+    
+    constructor(
+        public id : number, 
+        public role : string,
+        public phone : string,
+        public organization : string,
+        public password : string){}
 }
 
-async function get_user() : Promise<user_model>{
+export default function get_user(id : number = 0) {
+    const [helper , setUser] = React.useState<user_model>();
+    let url : string;
+    if (id == 0){
+        url = 'enter/';
+    } else {
+        url = 'enter/' + id;
+    }
+    axios.get<user_model>(url, {
+        baseURL : '',
+    }).then( response => {
+        setUser(response.data);
+    })
     
-        const response = await fetch('user');
-        const data = await response.json();
-        return new user_model(data.phone_number, data.password);
+    return helper;
 }

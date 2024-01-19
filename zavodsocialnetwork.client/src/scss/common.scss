@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
 }
 
 div.std{
@@ -13,11 +14,11 @@ div.std{
 }
 
 body {
-  background: linear-gradient(270deg,  #673737, #412828);
+  background: linear-gradient(270deg,  rgb(24,26,27), rgb(21, 23, 25));
   background-size: 400% 400%;
-  -webkit-animation: Animation 6s ease infinite;
-  -moz-animation: Animation 6s ease infinite;
-  animation: Animation 6s ease infinite;
+  -webkit-animation: Animation 15s ease infinite;
+  -moz-animation: Animation 15s ease infinite;
+  animation: Animation 15s ease infinite;
 }
 
 @-webkit-keyframes Animation {

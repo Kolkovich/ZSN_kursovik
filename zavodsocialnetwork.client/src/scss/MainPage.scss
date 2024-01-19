@@ -5,16 +5,16 @@
 
 .mainPage{
   @include flex_center;
-  margin: 0.2vh 12vw;
+  margin: 0.2vh 8vw;
   font-size: 1.3em;
-  color: black;
-  background: rgb(221,221,221);
+  color: white;
+  background: rgb(24,26,27);
   div{
     
     margin: 0.5vw;
     display: flex;
     //max-width: 10vw;
-    background: rgb(238,238,238);
+    background: rgb(29,31,32);
   }
   div.rightSided{
     text-align: right;
