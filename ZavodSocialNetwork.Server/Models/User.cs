@@ -8,5 +8,6 @@ public class User
     
     public string Role { get; set; }
     public string Phone { get; set; }
-    public string Organization { get; set; }
+    public string Organisation { get; set; }
+    public string Password { get; set; }
 }
