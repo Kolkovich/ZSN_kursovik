@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "AsxAdU9ittEC+bAcwAna2C3uD/YqpWVWPT1+3VjTsYE=",
+  "Hash": "Z9FX5dCX7I82r12QH0JR3ETtcclD4OOIQt61MeanNf0=",
   "Source": "ZavodSocialNetwork.Server",
   "BasePath": "_content/ZavodSocialNetwork.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Dima\\source\\repos\\ZavodSocialNetwork\\zavodsocialnetwork.client\\zavodsocialnetwork.client.esproj",
+      "Identity": "C:\\Games\\godot_cpp_extention\\src\\ZSN_kursovik\\zavodsocialnetwork.client\\zavodsocialnetwork.client.esproj",
       "Version": 2,
       "Source": "zavodsocialnetwork.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZavodSocialNetwork.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04fa8b5e03cdb4f5780554aa10744105c069de53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ddf4a43cdee19994379f99623daad0380a6ab63")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZavodSocialNetwork.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZavodSocialNetwork.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

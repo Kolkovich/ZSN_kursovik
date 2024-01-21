@@ -2,4 +2,37 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+div.std{
+  background: rgb(221,221,221);
+  
+  div{
+    background: rgb(238,238,238);
+  }
+}
+
+body {
+  background: linear-gradient(270deg,  rgb(24,26,27), rgb(21, 23, 25));
+  background-size: 400% 400%;
+  -webkit-animation: Animation 15s ease infinite;
+  -moz-animation: Animation 15s ease infinite;
+  animation: Animation 15s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes Animation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
+}
+@keyframes Animation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 51%}
+  100%{background-position:0% 50%}
 }

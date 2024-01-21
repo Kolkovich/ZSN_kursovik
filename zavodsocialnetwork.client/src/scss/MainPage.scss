@@ -1,10 +1,30 @@
 ﻿@mixin flex_center{
-  display: flex;
-  /*justify-content: center;*/
+  //display: flex;
+  align-self: center;
 }
 
 .mainPage{
   @include flex_center;
-  text-align: left;
-  padding: 0 100px;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  font-size: 1.3em;
+  color: white;
+  background: rgb(24,26,27);
+  max-width: fit-content;
+  
+  div{
+    padding: 0.5vw;
+    //max-width: 10vw;
+    background: rgb(29,31,32);
+  }
+  div.rightSided{
+    float: right;
+    text-align: right;
+    
+  }
+  div.leftSided{
+    float: left
+    
+  }
+  
 }

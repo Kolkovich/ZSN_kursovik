@@ -1,1 +1,2 @@
 C:\Users\Dima\source\repos\ZavodSocialNetwork\zavodsocialnetwork.client\obj\Debug\zavodsocialnetwork.client.esproj.CoreCompileInputs.cache
+C:\Games\godot_cpp_extention\src\ZSN_kursovik\zavodsocialnetwork.client\obj\Debug\zavodsocialnetwork.client.esproj.CoreCompileInputs.cache

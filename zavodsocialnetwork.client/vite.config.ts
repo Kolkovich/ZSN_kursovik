@@ -47,12 +47,12 @@ export default defineConfig({
     },
     server: {
         proxy: {
-            '^/xyeta': {
-                target: 'https://localhost:7239/',
-                secure: false
-            }, 
             '^/weatherforecast': {
-                target: 'https://localhost:7239/',
+                target: 'https://localhost:44323/',
+                secure: false
+            },
+            '^/api':{
+                target: 'https://localhost:44323/',
                 secure: false
             }
         },
