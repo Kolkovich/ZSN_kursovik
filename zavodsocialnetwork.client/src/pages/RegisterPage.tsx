@@ -1,28 +1,45 @@
 ﻿import React from "react";
 import "../scss/LoginPage.scss"
+import {check_user, find_user, user_model} from "../scripts/user.ts";
+import {setCurrentUser} from "../scripts/reg_log.ts";
 
 const  RegisterForm: React.FC = () => {
-    const [username, setUsername] = React.useState('');
+    const [organisation, setOrganisation] = React.useState('');
     const [password, setPassword] = React.useState('');
+    const [phone, setPhone] = React.useState('');
 
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-        event.preventDefault();
-        console.log('username:', username);
-        console.log('password:', password);
+        let user : user_model | undefined = undefined;
+        try{
+            event.type;
+            if(check_user(organisation, phone)){
+                return;
+            }
+            user = find_user(organisation, phone, password);
+            // @ts-ignore
+            setCurrentUser(user);
+        }
+        catch(error){
+            console.log(error);
+        }
     };
 
     return (<div className={"std"}>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label>
-                        Username:
-                        <input type="text" value={username} onChange={(event) => setUsername(event.target.value)} />
+                        Organisation:
+                        <input type="text" value={organisation} onChange={(event) => setOrganisation(event.target.value)} />
                     </label>
                     <label>
                         Password:
                         <input type="password" value={password} onChange={(event) => setPassword(event.target.value)} />
                     </label>
-                    <button type="submit">Login</button>
+                    <label>
+                        Phone:
+                        <input type={"text"} value = {phone} onChange={(event)=> setPhone(event.target.value)}/>
+                    </label>
+                    <button  type="submit" id={"submit_register"}>Register</button>
                 </div>
             </form>
         </div>

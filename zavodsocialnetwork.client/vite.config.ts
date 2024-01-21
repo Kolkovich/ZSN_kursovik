@@ -51,7 +51,7 @@ export default defineConfig({
                 target: 'https://localhost:44323/',
                 secure: false
             },
-            '^/enter':{
+            '^/api':{
                 target: 'https://localhost:44323/',
                 secure: false
             }

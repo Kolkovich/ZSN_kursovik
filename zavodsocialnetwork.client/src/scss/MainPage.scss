@@ -5,25 +5,26 @@
 
 .mainPage{
   @include flex_center;
-  margin: 0.2vh 8vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
   font-size: 1.3em;
   color: white;
   background: rgb(24,26,27);
+  max-width: fit-content;
+  
   div{
-    
-    margin: 0.5vw;
-    display: flex;
+    padding: 0.5vw;
     //max-width: 10vw;
     background: rgb(29,31,32);
   }
   div.rightSided{
+    float: right;
     text-align: right;
-    align-self: flex-end;
-    padding: 0;
-    margin: 0;
+    
   }
   div.leftSided{
-    align-self: flex-start;
-    text-align: left;
+    float: left
+    
   }
+  
 }

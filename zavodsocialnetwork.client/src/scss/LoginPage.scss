@@ -25,3 +25,6 @@ button {
   border: none;
   cursor: pointer;
 }
+p#small_animation{
+    animation: bloom ease-in-out 1.75s forwards;
+}

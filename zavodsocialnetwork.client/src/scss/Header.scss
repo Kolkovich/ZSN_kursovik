@@ -50,6 +50,10 @@ a {
   justify-content: space-between;
   width: 32vw;
 }
+.button_container#signed_out{
+  display: flex;
+  float: right;
+}
 .button_container#reg_log{
   position: relative;
   display: flex;
@@ -65,4 +69,5 @@ a {
   justify-content: space-between;
   width: 10vw;
 }
+
   

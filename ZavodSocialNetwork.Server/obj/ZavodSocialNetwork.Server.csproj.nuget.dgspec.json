@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dima\\source\\repos\\ZavodSocialNetwork\\ZavodSocialNetwork.Server\\ZavodSocialNetwork.Server.csproj": {}
+    "C:\\Games\\godot_cpp_extention\\src\\ZSN_kursovik\\ZavodSocialNetwork.Server\\ZavodSocialNetwork.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dima\\source\\repos\\ZavodSocialNetwork\\ZavodSocialNetwork.Server\\ZavodSocialNetwork.Server.csproj": {
+    "C:\\Games\\godot_cpp_extention\\src\\ZSN_kursovik\\ZavodSocialNetwork.Server\\ZavodSocialNetwork.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dima\\source\\repos\\ZavodSocialNetwork\\ZavodSocialNetwork.Server\\ZavodSocialNetwork.Server.csproj",
+        "projectUniqueName": "C:\\Games\\godot_cpp_extention\\src\\ZSN_kursovik\\ZavodSocialNetwork.Server\\ZavodSocialNetwork.Server.csproj",
         "projectName": "ZavodSocialNetwork.Server",
-        "projectPath": "C:\\Users\\Dima\\source\\repos\\ZavodSocialNetwork\\ZavodSocialNetwork.Server\\ZavodSocialNetwork.Server.csproj",
+        "projectPath": "C:\\Games\\godot_cpp_extention\\src\\ZSN_kursovik\\ZavodSocialNetwork.Server\\ZavodSocialNetwork.Server.csproj",
         "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dima\\source\\repos\\ZavodSocialNetwork\\ZavodSocialNetwork.Server\\obj\\",
+        "outputPath": "C:\\Games\\godot_cpp_extention\\src\\ZSN_kursovik\\ZavodSocialNetwork.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Microsoft.AspNetCore.SpaProxy": {
               "target": "Package",
               "version": "[8.*-*, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
