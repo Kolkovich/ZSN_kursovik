@@ -28,7 +28,7 @@ namespace ZavodSocialNetwork.Server.Controllers
         {
             foreach (var user in data) 
             {
-                if (user.Organisation == loger.organisation && user.Phone == loger.phone && user.Password == loger.password)
+                if (user.Phone == loger.phone && user.Password == loger.password)
                 {
                     return true;
                 }
@@ -37,7 +37,7 @@ namespace ZavodSocialNetwork.Server.Controllers
         }
 
         [HttpPost]
-        public bool Registration(UserViewModel newUser)
+        public bool Registration([FromBody]UserViewModel newUser)
         {
             foreach(var user in data) 
             {
@@ -51,7 +51,7 @@ namespace ZavodSocialNetwork.Server.Controllers
                 Organisation = newUser.organisation, 
                 Phone = newUser.phone, 
                 Password = newUser.password, 
-                Role = "User"
+                Role = "User" //Администрации не нужно создавать через регистрацию аккаунты
             });
             context.SaveChanges();
             return true;

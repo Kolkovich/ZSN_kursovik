@@ -7,8 +7,6 @@ public class ApplicationContext : DbContext
 {
     public DbSet<Receipt> Receipts { get; set; } = null!;
     public DbSet<Contract> Contracts { get; set; } = null!;
-    public DbSet<Product_package> ProductPackages { get; set; } = null!;
-    public DbSet<Product_position> ProductPositions { get; set; } = null!;
     public DbSet<User> Users { get; set; } = null!;
     public DbSet<Product> Product { get; set; } = null!;
 

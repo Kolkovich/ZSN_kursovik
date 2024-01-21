@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\Dima\\source\\repos\\ZavodSocialNetwork\\ZavodSocialNetwork.Server\\..\\zavodsocialnetwork.client",
+"WorkingDirectory": "C:\\Users\\1\\Source\\Repos\\ZSN_kursovik\\ZavodSocialNetwork.Server\\..\\zavodsocialnetwork.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
